@@ -15,3 +15,5 @@ Para llamar a la API se deben realizar peticiones POST y en el cuerpo se deben e
 `/colonias` busca las colonias por CP.
 `/busqueda` busca por nombre
 `/agrega` agrega nuevos datos.
+
+Se debe cambiar el nombre del host de la BD y el usuario y la contraseña en `app.py` con el formato `usuario:contraseña@host:puerto/pruebacd`.
