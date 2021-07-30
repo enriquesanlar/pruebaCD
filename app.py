@@ -7,7 +7,7 @@ db = SQLAlchemy()
 
 def create_app():
     app = Flask(__name__)
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:@localhost/pruebaCD'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:@db/pruebacd'
     db.init_app(app)
     with app.app_context():
         import routes

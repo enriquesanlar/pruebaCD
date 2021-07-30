@@ -3,7 +3,6 @@ from datetime import datetime as dt
 from flask import current_app as app
 from app import db
 from model import Municipio, Colonia, Estado
-import xml.etree.ElementTree as ET
 import pandas as pd
 
 
